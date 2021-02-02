@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>693949206728-d7b2n1tm3c7g702jb8n8jj7muttggomb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.693949206728-d7b2n1tm3c7g702jb8n8jj7muttggomb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBgJGVHvxQA6Hdof70O-RBe62XAjycVWBU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>693949206728</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>guesswho.PaintedMan</string>
+	<key>PROJECT_ID</key>
+	<string>paintedman</string>
+	<key>STORAGE_BUCKET</key>
+	<string>paintedman.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:693949206728:ios:3688486cf26c75f78d15fd</string>
+	<key>DATABASE_URL</key>
+	<string>https://paintedman.firebaseio.com</string>
+</dict>
+</plist>
