@@ -62,6 +62,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.5.2):
     - GoogleUtilities/Logger
+  - Kingfisher (6.1.0)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -78,6 +79,7 @@ DEPENDENCIES:
   - Alamofire
   - Firebase/Analytics
   - Google-Mobile-Ads-SDK
+  - Kingfisher
   - RealmSwift
 
 SPEC REPOS:
@@ -94,6 +96,7 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - Kingfisher
     - nanopb
     - PromisesObjC
     - Realm
@@ -112,11 +115,12 @@ SPEC CHECKSUMS:
   GoogleDataTransport: b29a21d813e906014ca16c00897827e40e4a24ab
   GoogleDataTransportCCTSupport: 6f15a89b0ca35d6fa523e1f752ef818588885988
   GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
+  Kingfisher: f5d8d60a0ef3edd642fd781bae60918599901aff
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Realm: 77fcb4e0b9f2963ea06f584749a0d7dc9cab95e1
   RealmSwift: 6abe6aa6cd8b70cc1a87afcb9232cabea74ff1ac
 
-PODFILE CHECKSUM: f6980ec39a484e0901a74e98cac054d2824953f1
+PODFILE CHECKSUM: b429b2d52aed0194d82a4f44e8c4e0995cd7d09b
 
 COCOAPODS: 1.10.1

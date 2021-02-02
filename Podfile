@@ -10,5 +10,6 @@ target 'PaintedMan' do
   pod 'Alamofire'
   
   pod 'RealmSwift'
+  pod 'Kingfisher'
 
 end

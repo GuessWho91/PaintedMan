@@ -3,20 +3,6 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "closure #1 in closure #1 in BestViewController.loadData():BestViewController.swift">
-      </ContextState>
-      <ContextState
-         contextName = "CampaignViewController.getButtonLevel(_:):CampaignViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "(Int(button.accessibilityHint ?? &quot;1&quot;) ?? 0) + offset">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Enemy.dropBonus(_:):Enemy.swift">
-      </ContextState>
-      <ContextState
          contextName = "GameController.setLives():GameController.swift">
          <PersistentStrings>
             <PersistentString
@@ -25,10 +11,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "CampaignViewController.getLevel(_:):CampaignViewController.swift">
+         contextName = "CampaignViewController.getButtonLevel(_:):CampaignViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "btn.accessibilityHint">
+               value = "(Int(button.accessibilityHint ?? &quot;1&quot;) ?? 0) + offset">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -50,6 +36,17 @@
                value = "Const.bestCatch">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.getLevel(_:):CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "btn.accessibilityHint">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Enemy.dropBonus(_:):Enemy.swift">
       </ContextState>
       <ContextState
          contextName = "GamePauseViewController.setHappyFace():GamePauseViewController.swift">
@@ -77,6 +74,20 @@
                value = "response.error?.errorDescription">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:AppDelegate.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.viewDidLoad():MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "URL(string: urlString)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in BestViewController.loadData():BestViewController.swift">
       </ContextState>
       <ContextState
          contextName = "BonusBubble.init(x:y:type:):BonusBubble.swift">

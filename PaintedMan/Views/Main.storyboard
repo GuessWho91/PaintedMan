@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,7 +32,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9M-Ff-sEH">
-                                <rect key="frame" x="401" y="275" width="94" height="40"/>
+                                <rect key="frame" x="408.5" y="275" width="79" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Iae-Iv-BRo">
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cy5-jk-tNZ">
-                                <rect key="frame" x="346.5" y="187" width="203" height="40"/>
+                                <rect key="frame" x="359.5" y="187" width="177" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="THi-U8-4e7"/>
                                     <constraint firstAttribute="height" constant="40" id="qLf-4M-vLN">
@@ -256,6 +256,7 @@
                         <outlet property="btnShop" destination="eP5-8Y-tF2" id="rui-CF-xWg"/>
                         <outlet property="btnSound" destination="X5e-gh-B7L" id="zMo-ig-fHi"/>
                         <outlet property="imageView" destination="6ma-Mq-a52" id="CYr-dA-0Vg"/>
+                        <outlet property="imageViewLogo" destination="hDV-Uh-PZT" id="5hh-L6-uQ1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -306,7 +307,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Mode:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVM-Cn-KYj">
-                                <rect key="frame" x="372" y="147" width="152" height="27"/>
+                                <rect key="frame" x="404" y="154" width="88" height="20"/>
                                 <fontDescription key="fontDescription" name="Fofer" family="Fofer" pointSize="23"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -315,7 +316,7 @@
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Eu5-xp-yi4">
-                                <rect key="frame" x="298.5" y="48" width="299" height="83"/>
+                                <rect key="frame" x="298.5" y="55" width="299" height="83"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0q-Fk-pqV">
                                 <rect key="frame" x="323" y="182" width="250" height="50"/>
@@ -555,14 +556,14 @@
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="bestTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="bestTableViewCell" id="04P-dq-Hex" customClass="BestTableViewCell" customModule="PaintedMan" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="73" width="896" height="48.5"/>
+                                        <rect key="frame" x="0.0" y="73" width="896" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="04P-dq-Hex" id="g3c-PP-MPq">
-                                            <rect key="frame" x="44" y="0.0" width="808" height="48.5"/>
+                                            <rect key="frame" x="44" y="0.0" width="808" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пупкин СС" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zh-FJ-10f">
-                                                    <rect key="frame" x="44.5" y="8" width="103" height="32.5"/>
+                                                    <rect key="frame" x="37.5" y="8" width="82" height="34"/>
                                                     <fontDescription key="fontDescription" name="beermoney" family="beer money" pointSize="20"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -571,7 +572,7 @@
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Da-ff-6b5">
-                                                    <rect key="frame" x="20" y="11" width="12.5" height="26.5"/>
+                                                    <rect key="frame" x="20" y="11" width="5.5" height="28"/>
                                                     <fontDescription key="fontDescription" name="beermoney" family="beer money" pointSize="22"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -580,7 +581,7 @@
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fT-tV-EUE">
-                                                    <rect key="frame" x="759" y="8" width="37" height="32.5"/>
+                                                    <rect key="frame" x="770" y="8" width="26" height="34"/>
                                                     <fontDescription key="fontDescription" name="beermoney" family="beer money" pointSize="22"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -1239,7 +1240,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power ups" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mX2-Q4-Qwa">
-                                <rect key="frame" x="369" y="48" width="158" height="38.5"/>
+                                <rect key="frame" x="398" y="48" width="100.5" height="29"/>
                                 <fontDescription key="fontDescription" name="Fofer" family="Fofer" pointSize="23"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1274,53 +1275,53 @@
                                 </constraints>
                             </imageView>
                             <view alpha="0.94999999999999996" contentMode="right" translatesAutoresizingMaskIntoConstraints="NO" id="M3U-uq-5C5" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="140" y="94.5" width="300" height="55"/>
+                                <rect key="frame" x="140" y="85" width="300" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="M4L-hN-56t"/>
                                     <constraint firstAttribute="height" constant="55" id="qU2-Nu-fpM"/>
                                 </constraints>
                             </view>
                             <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bj8-mW-RSG" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="140" y="153.5" width="300" height="55"/>
+                                <rect key="frame" x="140" y="144" width="300" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="4Vc-i8-mHp"/>
                                     <constraint firstAttribute="width" constant="300" id="bOm-DE-7o8"/>
                                 </constraints>
                             </view>
                             <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MfC-OE-LNe" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="140" y="212.5" width="300" height="55"/>
+                                <rect key="frame" x="140" y="203" width="300" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="nOw-ab-dcS"/>
                                     <constraint firstAttribute="height" constant="55" id="ohx-87-RsT"/>
                                 </constraints>
                             </view>
                             <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4w-IM-bz7" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="140" y="271.5" width="300" height="55"/>
+                                <rect key="frame" x="140" y="262" width="300" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="AQC-u5-3Wa"/>
                                     <constraint firstAttribute="height" constant="55" id="Omj-j8-6h8"/>
                                 </constraints>
                             </view>
                             <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5bV-u3-eoz" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="448" y="94.5" width="448" height="55"/>
+                                <rect key="frame" x="448" y="85" width="448" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Kfu-Kl-HNl"/>
                                 </constraints>
                             </view>
                             <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C9q-R5-0mb" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="448" y="153.5" width="448" height="55"/>
+                                <rect key="frame" x="448" y="144" width="448" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="5nM-cW-N0e"/>
                                 </constraints>
                             </view>
                             <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-D5-ROr" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="448" y="212.5" width="448" height="55"/>
+                                <rect key="frame" x="448" y="203" width="448" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Jwi-Oe-gek"/>
                                 </constraints>
                             </view>
                             <view alpha="0.94999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxw-jb-1VA" customClass="PowerUpElementView" customModule="PaintedMan" customModuleProvider="target">
-                                <rect key="frame" x="448" y="271.5" width="448" height="55"/>
+                                <rect key="frame" x="448" y="262" width="448" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Gfz-xB-whJ"/>
                                 </constraints>
@@ -1400,66 +1401,6 @@
         <image name="split_black" width="250" height="250"/>
         <image name="split_blue" width="250" height="250"/>
         <image name="split_red" width="250" height="250"/>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

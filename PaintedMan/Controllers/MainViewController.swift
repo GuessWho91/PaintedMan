@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 import GoogleMobileAds
+import Kingfisher
 
 class MainViewController: UIViewController {
     
@@ -55,6 +56,8 @@ class MainViewController: UIViewController {
     @IBOutlet weak var btnSound: UIButton!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var btnShop: UIButton!
+    
+    @IBOutlet weak var imageViewLogo: UIImageView!
     
     @IBAction func musicBtnClick(_ sender: AnyObject) {
         
@@ -114,6 +117,15 @@ class MainViewController: UIViewController {
         }
         
         //InAppPurchase.default.initialize ()
+        setLogo()
+    }
+    
+    private func setLogo() {
+        
+        let urlString = "https://arcsinus.ru/images/img/logo@2x.png"
+        let url = URL(string: urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")
+        imageViewLogo.kf.setImage(with: url)
+    
     }
     
     override func viewDidAppear(_ animated: Bool) {
