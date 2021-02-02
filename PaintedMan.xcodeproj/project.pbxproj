@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C789EA519B4110C76A24DED /* Pods_PaintedMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5686EB9E13D0DF892FE6DA /* Pods_PaintedMan.framework */; };
 		841005A61FE0562E00A48CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841005A51FE0562E00A48CC3 /* AppDelegate.swift */; };
 		841005BB1FE0562E00A48CC3 /* PaintedManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841005BA1FE0562E00A48CC3 /* PaintedManTests.swift */; };
 		841005C61FE0562E00A48CC3 /* PaintedManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841005C51FE0562E00A48CC3 /* PaintedManUITests.swift */; };
@@ -120,6 +121,7 @@
 		849F27EE25C9B4EC00960F4C /* beer money.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849F27A025C9B4EC00960F4C /* beer money.ttf */; };
 		849F27EF25C9B4EC00960F4C /* Fofer.otf in Resources */ = {isa = PBXBuildFile; fileRef = 849F27A125C9B4EC00960F4C /* Fofer.otf */; };
 		849F27F025C9B4EC00960F4C /* enemyreddamaged.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 849F27A225C9B4EC00960F4C /* enemyreddamaged.atlas */; };
+		849F27F925C9C54600960F4C /* LevelStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F27F825C9C54600960F4C /* LevelStars.swift */; };
 		84A3C70724C724F600D79183 /* PowerUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3C70624C724F600D79183 /* PowerUps.swift */; };
 		84A3C70F24C8689000D79183 /* BonusDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3C70E24C8689000D79183 /* BonusDrop.swift */; };
 		84A3C71324C8D53500D79183 /* SoundDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3C71224C8D53500D79183 /* SoundDelegate.swift */; };
@@ -148,6 +150,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5686EB9E13D0DF892FE6DA /* Pods_PaintedMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaintedMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE00F254A1470F66DD5F644 /* Pods-PaintedMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintedMan.debug.xcconfig"; path = "Target Support Files/Pods-PaintedMan/Pods-PaintedMan.debug.xcconfig"; sourceTree = "<group>"; };
 		841005A51FE0562E00A48CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841005B11FE0562E00A48CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -265,14 +268,15 @@
 		849F27A025C9B4EC00960F4C /* beer money.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beer money.ttf"; sourceTree = "<group>"; };
 		849F27A125C9B4EC00960F4C /* Fofer.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fofer.otf; sourceTree = "<group>"; };
 		849F27A225C9B4EC00960F4C /* enemyreddamaged.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = enemyreddamaged.atlas; path = Assets/enemyreddamaged.atlas; sourceTree = "<group>"; };
+		849F27F825C9C54600960F4C /* LevelStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelStars.swift; sourceTree = "<group>"; };
+		849F280025C9C60D00960F4C /* PaintedManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintedManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849F280125C9C60D00960F4C /* PaintedManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintedManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A3C70624C724F600D79183 /* PowerUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUps.swift; sourceTree = "<group>"; };
 		84A3C70E24C8689000D79183 /* BonusDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusDrop.swift; sourceTree = "<group>"; };
 		84A3C71224C8D53500D79183 /* SoundDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDelegate.swift; sourceTree = "<group>"; };
 		84A3C72424C97DDE00D79183 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84A3C72624C98A9100D79183 /* AppStoreReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReviewManager.swift; sourceTree = "<group>"; };
 		84ADC2BB1FE1B46B00D4FA04 /* PaintedMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintedMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84ADC2BC1FE1B46B00D4FA04 /* PaintedManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PaintedManTests.xctest; path = "/Users/oooakip/XCodeProjects/PaintedMan/build/Debug-iphoneos/PaintedManTests.xctest"; sourceTree = "<absolute>"; };
-		84ADC2BD1FE1B46B00D4FA04 /* PaintedManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PaintedManUITests.xctest; path = "/Users/oooakip/XCodeProjects/PaintedMan/build/Debug-iphoneos/PaintedManUITests.xctest"; sourceTree = "<absolute>"; };
 		84B5C98324C596BE001E6EDE /* enemy.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = enemy.atlas; path = ../../../Desktop/PaintedMan/assets/enemy.atlas; sourceTree = "<group>"; };
 		84DDF1B12576B24100DB8B44 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		84DDF1B32576B2C800DB8B44 /* InAppPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchase.swift; sourceTree = "<group>"; };
@@ -285,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DDF1B22576B24100DB8B44 /* StoreKit.framework in Frameworks */,
+				1C789EA519B4110C76A24DED /* Pods_PaintedMan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +319,15 @@
 				84ADC2BB1FE1B46B00D4FA04 /* PaintedMan.app */,
 				EB90D964D112A118BFC63010 /* Pods */,
 				934E7137B03CD117AAD554CF /* Frameworks */,
+				849F280025C9C60D00960F4C /* PaintedManTests.xctest */,
+				849F280125C9C60D00960F4C /* PaintedManUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
 		841005A41FE0562E00A48CC3 /* PaintedMan */ = {
 			isa = PBXGroup;
 			children = (
+				849F27F725C9C52B00960F4C /* Database */,
 				8438A9DC2007E7F90013A6F3 /* Assets */,
 				8438A9DE2007E84E0013A6F3 /* Models */,
 				8438A9DD2007E83E0013A6F3 /* Views */,
@@ -546,10 +554,19 @@
 			path = Assets/Fonts;
 			sourceTree = "<group>";
 		};
+		849F27F725C9C52B00960F4C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				849F27F825C9C54600960F4C /* LevelStars.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
 		934E7137B03CD117AAD554CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				84DDF1B12576B24100DB8B44 /* StoreKit.framework */,
+				1B5686EB9E13D0DF892FE6DA /* Pods_PaintedMan.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -600,7 +617,7 @@
 			);
 			name = PaintedManTests;
 			productName = PaintedManTests;
-			productReference = 84ADC2BC1FE1B46B00D4FA04 /* PaintedManTests.xctest */;
+			productReference = 849F280025C9C60D00960F4C /* PaintedManTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		841005C01FE0562E00A48CC3 /* PaintedManUITests */ = {
@@ -618,7 +635,7 @@
 			);
 			name = PaintedManUITests;
 			productName = PaintedManUITests;
-			productReference = 84ADC2BD1FE1B46B00D4FA04 /* PaintedManUITests.xctest */;
+			productReference = 849F280125C9C60D00960F4C /* PaintedManUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -790,6 +807,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -797,6 +816,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -862,6 +883,7 @@
 				849F272D25C9B31400960F4C /* Corpse.swift in Sources */,
 				849F271225C9B2A800960F4C /* GameConst.swift in Sources */,
 				84A3C70F24C8689000D79183 /* BonusDrop.swift in Sources */,
+				849F27F925C9C54600960F4C /* LevelStars.swift in Sources */,
 				849F272E25C9B31400960F4C /* CorpseCatch.swift in Sources */,
 				849F270D25C9B2A800960F4C /* GameScene.swift in Sources */,
 				849F272F25C9B31400960F4C /* Gun.swift in Sources */,

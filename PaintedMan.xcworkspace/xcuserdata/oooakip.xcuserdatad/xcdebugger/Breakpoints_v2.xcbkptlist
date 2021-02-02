@@ -676,5 +676,85 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DB9C076-EE04-4066-8D88-A033D0D27DB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PaintedMan/LevelStars.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "upsert(level:starsCount:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8DB9C076-EE04-4066-8D88-A033D0D27DB3 - f3690cf0b80edae6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static PaintedMan.LevelStars.upsert(level: Swift.Int, starsCount: Swift.Int) -&gt; ()"
+                  moduleName = "PaintedMan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oooakip/XCodeProjects/PaintedMan/PaintedMan/LevelStars.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1043">
+               </Location>
+               <Location
+                  uuid = "8DB9C076-EE04-4066-8D88-A033D0D27DB3 - 5e5b04b19c12936f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in static PaintedMan.LevelStars.upsert(level: Swift.Int, starsCount: Swift.Int) -&gt; ()"
+                  moduleName = "PaintedMan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oooakip/XCodeProjects/PaintedMan/PaintedMan/LevelStars.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F69EEDF-B4F3-4A6C-8166-59ABA3A0B1FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PaintedMan/LevelStars.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "upsert(level:starsCount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B38A86A7-E411-4A0F-BD0B-A53188C7319B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PaintedMan/LevelStars.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "upsert(level:starsCount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

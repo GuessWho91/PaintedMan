@@ -8,5 +8,7 @@ target 'PaintedMan' do
   pod 'Firebase/Analytics'
   pod 'Google-Mobile-Ads-SDK'
   pod 'Alamofire'
+  
+  pod 'RealmSwift'
 
 end

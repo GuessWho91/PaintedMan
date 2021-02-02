@@ -8,6 +8,7 @@
 
 import UIKit
 import SpriteKit
+import RealmSwift
 
 class GameController: UIViewController {
     
@@ -187,10 +188,8 @@ class GameController: UIViewController {
                 stars = 3
             }
             
-            if (stars > Const.getLevelStars(level: level)) {
-                Const.setLevelStars(level: level, stars: stars)
-            }
-            
+            LevelStars.upsert(level: level, starsCount: stars)
+            //Const.setLevelStars(level: level, stars: stars)
         }
         
     }

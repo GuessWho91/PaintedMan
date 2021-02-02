@@ -25,20 +25,20 @@ class Const {
         }
     }
     
-    static func getLevelStars(level: Int) -> Int {
-        
-        let stars = preferences.object(forKey: "level\(level)") as? Int ?? 0
-        
-        return stars > 3 ? 3 : stars
-        
-    }
-    
-    static func setLevelStars(level: Int, stars: Int) {
-        
-        preferences.set(stars, forKey: "level\(level)")
-        preferences.synchronize()
-        
-    }
+//    static func getLevelStars(level: Int) -> Int {
+//
+//        let stars = preferences.object(forKey: "level\(level)") as? Int ?? 0
+//
+//        return stars > 3 ? 3 : stars
+//
+//    }
+//
+//    static func setLevelStars(level: Int, stars: Int) {
+//
+//        preferences.set(stars, forKey: "level\(level)")
+//        preferences.synchronize()
+//
+//    }
     
     static var isMusic: Bool {
         get {

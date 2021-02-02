@@ -133,7 +133,8 @@ class CampaignViewController: UIViewController {
     private func setButtonImage(_ btn: UIButton) {
         
         let level = getLevel(btn)
-        let stars = Const.getLevelStars(level: level)
+//        let stars = Const.getLevelStars(level: level)
+        let stars = LevelStars.getLevelStarsCount(level: level).first?.starsCount ?? 0
         
         var image: UIImage? = nil
         switch stars {
