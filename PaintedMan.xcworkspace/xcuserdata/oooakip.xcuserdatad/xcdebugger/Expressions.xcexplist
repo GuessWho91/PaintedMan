@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in closure #1 in BestViewController.loadData():BestViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.getButtonLevel(_:):CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(Int(button.accessibilityHint ?? &quot;1&quot;) ?? 0) + offset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Enemy.dropBonus(_:):Enemy.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameController.setLives():GameController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.score/100">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.getLevel(_:):CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "btn.accessibilityHint">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BestViewController.setData():BestViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Const.bestPunch">
+            </PersistentString>
+            <PersistentString
+               value = "response.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BestViewController.setData():BestViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Const.bestCatch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GamePauseViewController.setHappyFace():GamePauseViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "score">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BestViewController.onNameChangedClick(_:):BestViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "BestViewController.url + &quot;/paintedman/best.php&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BestViewController.loadData():BestViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result ">
+            </PersistentString>
+            <PersistentString
+               value = "response.error?.errorDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BonusBubble.init(x:y:type:):BonusBubble.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "GameConst.bonusSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

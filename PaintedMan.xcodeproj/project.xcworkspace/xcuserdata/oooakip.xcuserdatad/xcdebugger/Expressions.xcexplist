@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Gun.init():Gun.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "GameConst.screenHeight * 0.5">
+            </PersistentString>
+            <PersistentString
+               value = "GameConst.screenWidth * 0.05">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Enemy.createAnimation():Enemy.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "runningAnimatedAtlas.textureNames.count">
+            </PersistentString>
+            <PersistentString
+               value = "SKTextureAtlas(named: &quot;enemy&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.didBegin(_:):GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "monster.position.y">
+            </PersistentString>
+            <PersistentString
+               value = "monster.position.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EnemyFast.changeDirection():EnemyFast.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "speed">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PowerUpElementView.onUpdateClicked(_:):PowerUpElementView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "onMoneySpendListener">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameSceneSurvive.onDidMove():GameSceneSurvive.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "level">
+            </PersistentString>
+            <PersistentString
+               value = "PowerUps.UltimateGun.getValue()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameController.setLives() -&gt; ():GameController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scene">
+            </PersistentString>
+            <PersistentString
+               value = "imageLive_1">
+            </PersistentString>
+            <PersistentString
+               value = "imageLive_1.isHidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PowerUpController.showMoneyValue():PowerUpController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(Const.currentMoney)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GunCatch.setBlue():GunCatch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Const.loadAtlas(name: &quot;guncatchblue&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Const.loadAtlas(name:):Const.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "runningAnimatedAtlas.textureNames.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.didBegin(SKPhysicsContact) -&gt; ():GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "secondBody.categoryBitMask ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Enemy.die():Enemy.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parent">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in GamePauseViewController.onNextPressed(_:):GamePauseViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Const.isSound.getter:Const.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "preferences.object(forKey: &quot;isSound&quot;) as? Bool ?? false">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameController.viewDidLoad():GameController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "level">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PowerUpElementView.setPowerUp(powerUp:):PowerUpElementView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "labelPrice">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static SoundDelegate.resumeBackgroundMusic():SoundDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "it.isPlaying">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.getLevel(_:):CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(Int(btn.titleLabel?.text ?? &quot;1&quot;) ?? 1) + offset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EnemyFast.run():EnemyFast.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.didMove(to : SKView) -&gt; ():GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "size">
+            </PersistentString>
+            <PersistentString
+               value = "finishLine.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Enemy.init() -&gt; Enemy:Enemy.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Const.playSound(name:):Const.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "AppDelegate.bgMusicPlayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.application(_:didFinishLaunchingWithOptions:):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "AVAudioPlayer()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameController.setScene():GameController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scene as! GameScene">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameSceneCatch.checkContact(firstBody:secondBody:):GameSceneCatch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "monster">
+            </PersistentString>
+            <PersistentString
+               value = "firstBody.categoryBitMask">
+            </PersistentString>
+            <PersistentString
+               value = "GameConst.PhysicsCategory.Enemy">
+            </PersistentString>
+            <PersistentString
+               value = "secondBody.categoryBitMask">
+            </PersistentString>
+            <PersistentString
+               value = "secondBody.categoryBitMask &amp; GameConst.PhysicsCategory.Bullet">
+            </PersistentString>
+            <PersistentString
+               value = "firstBody.categoryBitMask &amp; GameConst.PhysicsCategory.Enemy">
+            </PersistentString>
+            <PersistentString
+               value = "firstBody.description">
+            </PersistentString>
+            <PersistentString
+               value = "secondBody.description">
+            </PersistentString>
+            <PersistentString
+               value = "GameConst.PhysicsCategory.Bullet">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
