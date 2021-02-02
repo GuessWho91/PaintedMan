@@ -74,6 +74,8 @@ PODS:
   - Realm/Headers (10.5.1)
   - RealmSwift (10.5.1):
     - Realm (= 10.5.1)
+  - RxSwift (6.0.0)
+  - Swinject (2.7.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -81,6 +83,8 @@ DEPENDENCIES:
   - Google-Mobile-Ads-SDK
   - Kingfisher
   - RealmSwift
+  - RxSwift
+  - Swinject
 
 SPEC REPOS:
   trunk:
@@ -101,6 +105,8 @@ SPEC REPOS:
     - PromisesObjC
     - Realm
     - RealmSwift
+    - RxSwift
+    - Swinject
 
 SPEC CHECKSUMS:
   Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
@@ -120,7 +126,9 @@ SPEC CHECKSUMS:
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Realm: 77fcb4e0b9f2963ea06f584749a0d7dc9cab95e1
   RealmSwift: 6abe6aa6cd8b70cc1a87afcb9232cabea74ff1ac
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: b429b2d52aed0194d82a4f44e8c4e0995cd7d09b
+PODFILE CHECKSUM: 6882abd08c9decd5d0ad47eb3405a820b45961e7
 
 COCOAPODS: 1.10.1

@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in LocalDBLoader.loadData():BestViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "try JSONSerialization.jsonObject(with: data, options: []) as! NSDictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "GameController.setLives():GameController.swift">
          <PersistentStrings>
             <PersistentString
@@ -68,10 +76,10 @@
          contextName = "closure #1 in BestViewController.loadData():BestViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "response.result ">
+               value = "response.error?.errorDescription">
             </PersistentString>
             <PersistentString
-               value = "response.error?.errorDescription">
+               value = "self.surviveBestArray">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

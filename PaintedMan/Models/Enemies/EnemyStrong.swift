@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class EnemyStrong: Enemy {
+class EnemyStrong: EnemySimple {
     
     var lives = 2
     

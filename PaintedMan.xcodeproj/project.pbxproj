@@ -35,7 +35,7 @@
 		849F273125C9B31400960F4C /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F272525C9B31400960F4C /* Bullet.swift */; };
 		849F273225C9B31400960F4C /* GunCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F272625C9B31400960F4C /* GunCatch.swift */; };
 		849F273B25C9B34500960F4C /* EnemyFast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F273725C9B34500960F4C /* EnemyFast.swift */; };
-		849F273C25C9B34500960F4C /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F273825C9B34500960F4C /* Enemy.swift */; };
+		849F273C25C9B34500960F4C /* EnemySimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F273825C9B34500960F4C /* EnemySimple.swift */; };
 		849F273D25C9B34500960F4C /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F273925C9B34500960F4C /* Boss.swift */; };
 		849F273E25C9B34500960F4C /* EnemyStrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F273A25C9B34500960F4C /* EnemyStrong.swift */; };
 		849F274725C9B49E00960F4C /* PowerUpElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849F274225C9B49D00960F4C /* PowerUpElementView.xib */; };
@@ -122,6 +122,7 @@
 		849F27EF25C9B4EC00960F4C /* Fofer.otf in Resources */ = {isa = PBXBuildFile; fileRef = 849F27A125C9B4EC00960F4C /* Fofer.otf */; };
 		849F27F025C9B4EC00960F4C /* enemyreddamaged.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 849F27A225C9B4EC00960F4C /* enemyreddamaged.atlas */; };
 		849F27F925C9C54600960F4C /* LevelStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F27F825C9C54600960F4C /* LevelStars.swift */; };
+		849F284825C9DE5B00960F4C /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F284725C9DE5B00960F4C /* Enemy.swift */; };
 		84A3C70724C724F600D79183 /* PowerUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3C70624C724F600D79183 /* PowerUps.swift */; };
 		84A3C70F24C8689000D79183 /* BonusDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3C70E24C8689000D79183 /* BonusDrop.swift */; };
 		84A3C71324C8D53500D79183 /* SoundDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3C71224C8D53500D79183 /* SoundDelegate.swift */; };
@@ -182,7 +183,7 @@
 		849F272525C9B31400960F4C /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
 		849F272625C9B31400960F4C /* GunCatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GunCatch.swift; path = Models/GunCatch.swift; sourceTree = "<group>"; };
 		849F273725C9B34500960F4C /* EnemyFast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyFast.swift; sourceTree = "<group>"; };
-		849F273825C9B34500960F4C /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		849F273825C9B34500960F4C /* EnemySimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemySimple.swift; sourceTree = "<group>"; };
 		849F273925C9B34500960F4C /* Boss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
 		849F273A25C9B34500960F4C /* EnemyStrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyStrong.swift; sourceTree = "<group>"; };
 		849F274225C9B49D00960F4C /* PowerUpElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PowerUpElementView.xib; path = Views/PowerUpElementView.xib; sourceTree = "<group>"; };
@@ -271,6 +272,7 @@
 		849F27F825C9C54600960F4C /* LevelStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelStars.swift; sourceTree = "<group>"; };
 		849F280025C9C60D00960F4C /* PaintedManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintedManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849F280125C9C60D00960F4C /* PaintedManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintedManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849F284725C9DE5B00960F4C /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		84A3C70624C724F600D79183 /* PowerUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUps.swift; sourceTree = "<group>"; };
 		84A3C70E24C8689000D79183 /* BonusDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusDrop.swift; sourceTree = "<group>"; };
 		84A3C71224C8D53500D79183 /* SoundDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDelegate.swift; sourceTree = "<group>"; };
@@ -450,10 +452,11 @@
 		849F273625C9B34500960F4C /* Enemies */ = {
 			isa = PBXGroup;
 			children = (
+				849F284725C9DE5B00960F4C /* Enemy.swift */,
+				849F273825C9B34500960F4C /* EnemySimple.swift */,
 				849F273725C9B34500960F4C /* EnemyFast.swift */,
-				849F273825C9B34500960F4C /* Enemy.swift */,
-				849F273925C9B34500960F4C /* Boss.swift */,
 				849F273A25C9B34500960F4C /* EnemyStrong.swift */,
+				849F273925C9B34500960F4C /* Boss.swift */,
 			);
 			name = Enemies;
 			path = Models/Enemies;
@@ -810,6 +813,8 @@
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -820,6 +825,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -859,7 +866,7 @@
 				84A3C70724C724F600D79183 /* PowerUps.swift in Sources */,
 				849F26F925C9B13500960F4C /* PowerUpController.swift in Sources */,
 				849F271025C9B2A800960F4C /* GameScenePunch.swift in Sources */,
-				849F273C25C9B34500960F4C /* Enemy.swift in Sources */,
+				849F273C25C9B34500960F4C /* EnemySimple.swift in Sources */,
 				849F273D25C9B34500960F4C /* Boss.swift in Sources */,
 				841005A61FE0562E00A48CC3 /* AppDelegate.swift in Sources */,
 				849F271125C9B2A800960F4C /* LevelDelegate.swift in Sources */,
@@ -888,6 +895,7 @@
 				849F27F925C9C54600960F4C /* LevelStars.swift in Sources */,
 				849F272E25C9B31400960F4C /* CorpseCatch.swift in Sources */,
 				849F270D25C9B2A800960F4C /* GameScene.swift in Sources */,
+				849F284825C9DE5B00960F4C /* Enemy.swift in Sources */,
 				849F272F25C9B31400960F4C /* Gun.swift in Sources */,
 				84A3C71324C8D53500D79183 /* SoundDelegate.swift in Sources */,
 				849F26FD25C9B13500960F4C /* MainViewController.swift in Sources */,

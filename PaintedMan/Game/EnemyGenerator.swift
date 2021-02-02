@@ -15,18 +15,18 @@ class EnemyGenerator {
     private let level: Int
     private let mode: GameConst.GameTypes
     
-    private var enemies = Array<Enemy>()
+    private var enemies = Array<EnemySimple>()
     
     init(level: Int, mode: GameConst.GameTypes) {
         self.level = level
         self.mode = mode
     }
     
-    func generateEnemy() -> [Enemy] {
+    func generateEnemy() -> [EnemySimple] {
         
         callerCount += 1
         
-        enemies = Array<Enemy>()
+        enemies = Array<EnemySimple>()
         
         if (level == 0) {
             modeGeneration()
@@ -135,7 +135,7 @@ class EnemyGenerator {
     
     private func simpleEnemy() {
         if (callerCount % 3 == 0) {
-            let monster = Enemy()
+            let monster = EnemySimple()
             enemies.append(monster)
         }
     }
@@ -165,7 +165,7 @@ class EnemyGenerator {
         
         switch rand {
         case 0:
-            let monster = Enemy()
+            let monster = EnemySimple()
             enemies.append(monster)
         case 1:
             let monster = EnemyFast()
@@ -175,7 +175,7 @@ class EnemyGenerator {
                 let monster = EnemyStrong()
                 enemies.append(monster)
             } else {
-                let monster = Enemy()
+                let monster = EnemySimple()
                 enemies.append(monster)
             }
         default:

@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class EnemyFast: Enemy {
+class EnemyFast: EnemySimple {
     
     var lives = 2
     var direction = 0

@@ -8,6 +8,8 @@
 
 import UIKit
 import Alamofire
+import RxSwift
+import Swinject
 
 class BestViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -125,51 +127,61 @@ class BestViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
-    private func loadData () {
+    private func loadData() {
+       
+        self.surviveBestArray = []
+        self.punchBestArray = []
+        self.catchBestArray = []
         
-        let request = AF.request(BestViewController.url + "/paintedman/best.php", method: .get, encoding: JSONEncoding.default)
-        //debugPrint(request)
-        request.responseJSON { response in
+        let container = Container()
+        container.register(ScoreLoader.self, factory: {_ in
+            if (Const.isConnectedToNetwork()){
+                return ServerLoader()
+            } else {
+                return LocalDBLoader()
+            }
+        })
+        
+        _ = container.resolve(ScoreLoader.self)?.loadData().subscribe(onNext: { (arrayResponse) in
             
-            self.surviveBestArray = []
-            self.punchBestArray = []
-            self.catchBestArray = []
+            (arrayResponse["survive"] as? NSArray)?.forEach { it in
+                guard let best = it as? NSDictionary else {
+                    return
+                }
+                self.surviveBestArray.append(BestScores(name: best["name"] as? String ?? "-", score: best["score"] as? Int ?? 0))
+            }
             
-            switch response.result {
-            case .success(let JSON):
-                
-                let arrayResponse = JSON as! NSDictionary
-                
-                (arrayResponse["survive"] as? NSArray)?.forEach { it in
-                    guard let best = it as? NSDictionary else {
-                        return
-                    }
-                    self.surviveBestArray.append(BestScores(name: best["name"] as? String ?? "-", score: best["score"] as? Int ?? 0))
+            (arrayResponse["punch"] as? NSArray)?.forEach { it in
+                guard let best = it as? NSDictionary else {
+                    return
                 }
-                
-                (arrayResponse["punch"] as? NSArray)?.forEach { it in
-                    guard let best = it as? NSDictionary else {
-                        return
-                    }
-                    self.punchBestArray.append(BestScores(name: best["name"] as? String ?? "-", score: best["score"] as? Int ?? 0))
+                self.punchBestArray.append(BestScores(name: best["name"] as? String ?? "-", score: best["score"] as? Int ?? 0))
+            }
+            
+            (arrayResponse["catch"] as? NSArray)?.forEach { it in
+                guard let best = it as? NSDictionary else {
+                    return
                 }
-                
-                (arrayResponse["catch"] as? NSArray)?.forEach { it in
-                    guard let best = it as? NSDictionary else {
-                        return
-                    }
-                    self.catchBestArray.append(BestScores(name: best["name"] as? String ?? "-", score: best["score"] as? Int ?? 0))
-                }
-                
-                self.indexChanged(self.segmentController)
-                
-            default:
-                self.surviveBestArray.append(BestScores(name: "Can't load data", score: 0))
-                print(response.error?.errorDescription ?? "-", response.response?.statusCode ?? "-")
+                self.catchBestArray.append(BestScores(name: best["name"] as? String ?? "-", score: best["score"] as? Int ?? 0))
             }
             
             self.indexChanged(self.segmentController)
-        }
+            
+        }, onError: { (error) in
+            
+            self.surviveBestArray.append(BestScores(name: "Can't load data", score: 0))
+            self.punchBestArray.append(BestScores(name: "Can't load data", score: 0))
+            self.catchBestArray.append(BestScores(name: "Can't load data", score: 0))
+            
+            self.indexChanged(self.segmentController)
+            
+            print(error)
+        }, onCompleted: {
+//            self.indexChanged(self.segmentController)
+        }, onDisposed: {
+            self.indexChanged(self.segmentController)
+        })
+        
     }
     
 }
@@ -191,5 +203,76 @@ class BestTableViewCell: UITableViewCell {
     @IBOutlet weak var labelCount: UILabel!
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelScore: UILabel!
+    
+}
+
+
+protocol ScoreLoader {
+    func loadData() -> Observable<NSDictionary>
+}
+
+class ServerLoader: ScoreLoader {
+    
+    func loadData() -> Observable<NSDictionary> {
+        
+        return Observable.create({ (observer) -> Disposable in
+            
+            let request = AF.request(BestViewController.url + "/paintedman/best.php", method: .get, encoding: JSONEncoding.default)
+            //debugPrint(request)
+            request.responseJSON { response in
+                
+                switch response.result {
+                case .success(let JSON):
+                    
+                    let arrayResponse = JSON as! NSDictionary
+                    
+                    observer.onNext(arrayResponse)
+                    observer.onCompleted()
+                    
+                default:
+                    let errorText: String = (response.error?.errorDescription ?? "-")
+                    observer.onError(NSError(domain: errorText, code:response.error?.responseCode ?? 0, userInfo:nil))
+                }
+            }
+            
+            return Disposables.create()
+        })
+    }
+}
+
+class LocalDBLoader: ScoreLoader {
+    
+    func loadData() -> Observable<NSDictionary> {
+        
+        return Observable.create({ (observer) -> Disposable in
+            
+            let jsonText = """
+                            {
+                                "survive": [{
+                                    "name": "DemoData",
+                                    "score": 3826
+                                }],
+                                "catch": [{
+                                    "name": "DemoData",
+                                    "score": 852
+                                }],
+                                "punch": [{
+                                    "name": "DemoData",
+                                    "score": 4288
+                                }]
+                            }
+                            """
+            
+            if let data = jsonText.data(using: .utf8) {
+                do {
+                    observer.onNext(try JSONSerialization.jsonObject(with: data, options: []) as! NSDictionary)
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
+            
+            return Disposables.create()
+        })
+    }
     
 }

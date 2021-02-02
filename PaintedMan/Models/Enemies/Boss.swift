@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class Boss: Enemy {
+class Boss: EnemySimple {
     
     var lives = 5
     

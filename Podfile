@@ -11,5 +11,7 @@ target 'PaintedMan' do
   
   pod 'RealmSwift'
   pod 'Kingfisher'
-
+  pod 'Swinject'
+  pod 'RxSwift'
+  
 end

@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import GoogleMobileAds
+import Swinject
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
+//        let container = Container() { container in
+//            container.register(Enemy.self) { _ in EnemySimple() }.inObjectScope(.container)
+//            container.register(GameScene.self) { r in
+//                let controller = CreateAccountVC()
+//                controller.authService = r.resolve(AuthServiceProtocol.self)
+//                return controller
+//            }
+//        }
         
         return true
     }
